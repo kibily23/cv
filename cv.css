@@ -1,22 +1,36 @@
+body {
+ background-color: white; 
+ font-family: Arial; 
+ font-size: 100%;
+ }
 h1
 {
-  color: green;
-  text-align: center;
-  }
- h2
-{
-  color: gray;
-  margin-left: 40px;
+font-family: Arial; font-style: italic;
 }
+h2 {
+ margin:20px;
+ padding:10px;
+ background-color:#008080
+;
+ }
+ul{
+ 
+ margin:10px;}
+p{
 
-
-h3
-{
-  font-style: italic;
+ margin:10px;
+padding:10px;
 }
-
-h4
+pre
 {
- color: gray;
- font-style: italic;
+ padding:10px;
+
+
+}
+.mdl-slider__container {
+    background-color: white !important; /* Met le fond de la barre en blanc */
+    position: fixed !important; /* Permet de définir la position de la barre comme fixe */
+    top: 0; /* Défini la postion de la barre en haut */
+    z-index: 200; /* Une valeur élevée ici permet de s'assurer que l'élément est au dessus des autres */
+    width: 100vw; /* Défini la largeur de l'élément comme étant 100% de la largeur de l'écran */
 }
